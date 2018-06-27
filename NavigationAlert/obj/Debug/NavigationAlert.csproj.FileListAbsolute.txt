@@ -5,3 +5,10 @@ C:\Users\Abhishek.Bhol\source\repos\NavigationAlert\NavigationAlert\obj\Debug\Na
 C:\Users\Abhishek.Bhol\source\repos\NavigationAlert\NavigationAlert\obj\Debug\NavigationAlert.csproj.CoreCompileInputs.cache
 C:\Users\Abhishek.Bhol\source\repos\NavigationAlert\NavigationAlert\obj\Debug\NavigationAlert.exe
 C:\Users\Abhishek.Bhol\source\repos\NavigationAlert\NavigationAlert\obj\Debug\NavigationAlert.pdb
+D:\Projects\CSharp\NavigationAlert\NavigationAlert\bin\Debug\NavigationAlert.exe.config
+D:\Projects\CSharp\NavigationAlert\NavigationAlert\bin\Debug\NavigationAlert.exe
+D:\Projects\CSharp\NavigationAlert\NavigationAlert\bin\Debug\NavigationAlert.pdb
+D:\Projects\CSharp\NavigationAlert\NavigationAlert\obj\Debug\NavigationAlert.csprojResolveAssemblyReference.cache
+D:\Projects\CSharp\NavigationAlert\NavigationAlert\obj\Debug\NavigationAlert.csproj.CoreCompileInputs.cache
+D:\Projects\CSharp\NavigationAlert\NavigationAlert\obj\Debug\NavigationAlert.exe
+D:\Projects\CSharp\NavigationAlert\NavigationAlert\obj\Debug\NavigationAlert.pdb

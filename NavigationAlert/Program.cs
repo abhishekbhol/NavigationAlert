@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace NavigationAlert
 {
     // This program has some assumptions -
-    // 1. The start direction is East
+    // 1. The first co-ordinates are start co-ordinates and start direction is East
     // 2. The person can not go back , he can go only to straight, right , left, slight right, slight left
     public class Program
     {
@@ -16,7 +16,7 @@ namespace NavigationAlert
         {
             try
             {
-                var filePath = @"D:\\Projects\\CSharp\\NavigationAlert\\input.csv";
+                var filePath = "..\\..\\TestFiles\\input1.csv";
                 var latlongList = GetFileData(filePath);
                 var speed = 10; // In km/hr
 
@@ -25,7 +25,7 @@ namespace NavigationAlert
             }
             catch(Exception e)
             {
-                Console.WriteLine("Not able to Alert. Exception : " + e.StackTrace);
+                Console.WriteLine("Not able to Alert Navigation. Exception : " + e.StackTrace);
             }
         }
 
@@ -42,7 +42,7 @@ namespace NavigationAlert
 
                 var cordName = GetDirectionFromLatLonInKm(latlongList[i].latitude, latlongList[i].longitude,
                     latlongList[i + 1].latitude, latlongList[i + 1].longitude);
-                //Console.WriteLine("Direction : " + cordName);
+                Console.WriteLine("Direction : " + cordName);
 
                 var timeNeeded = dist / speed;
 
@@ -70,7 +70,7 @@ namespace NavigationAlert
                 return Direction.right;
             else if (currIndex == (nextIndex + 1) % 8)
                 return Direction.slight_Left;
-            else if (nextIndex == (nextIndex + 2) % 8)
+            else if (currIndex == (nextIndex + 2) % 8)
                 return Direction.left;
 
             return Direction.straight;
