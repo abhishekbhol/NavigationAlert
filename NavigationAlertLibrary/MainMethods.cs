@@ -7,6 +7,11 @@ namespace NavigationAlertLibrary
 {
     public class MainMethods
     {
+        /// <summary>
+        /// This method is the main method which takes csv file path as input and speed of the delivery speed.
+        /// </summary>
+        /// <param name="filePath"></param>
+        /// <param name="speed"></param>
         public static void AlertPath(String filePath, double speed)
         {
             var startTime = DateTime.Now;
